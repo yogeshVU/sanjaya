@@ -1,0 +1,21 @@
+{
+  "components": {
+    "routers": {
+      "pingmachine": {
+        "src": "src/routers/pingmachine",
+        "test": "test/routers/pingmachine",
+        "mount": "routers/pingmachine"
+      }
+    },
+    "plugins": {
+      "testrouter": {
+        "src": "src/plugins/testrouter",
+        "test": "test/plugins/testrouter"
+      }
+    }
+  },
+  "dependencies": {
+    "routers": {},
+    "plugins": {}
+  }
+}
